@@ -72,7 +72,7 @@ function init() {
         sound.setLoop(true);
         sound.setVolume(0.05);
         sound.setLoop(true);
-        sound.play();
+        // sound.play();
     });
 
     // Center nucleus
