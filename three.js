@@ -71,8 +71,8 @@ function init() {
         sound.setBuffer(buffer);
         sound.setLoop(true);
         sound.setVolume(0.05);
-        sound.play();
         sound.setLoop(true);
+        sound.play();
     });
 
     // Center nucleus
@@ -207,6 +207,7 @@ function animate() {
     window.addEventListener('click', onDocumentMouseDown, false);
     window.addEventListener('keydown', onDocumentKeyDown, false);
     renderer.render(scene, camera);
+    sound.play();
     requestAnimationFrame(animate);
 }
 
