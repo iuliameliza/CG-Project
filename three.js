@@ -220,10 +220,10 @@ function onDocumentKeyDown(event) {
         if (nucleus.geometry.parameters.radius > 20)
             nucleus.geometry.parameters.radius -= 2;
     } else if (keyCode == 32) { // Space
-        if (flag == false) {
+        if (flag == false) {    // Audio Stopped
             flag = true;
             sound.play();
-        } else {
+        } else {                //Audio playing
             flag = false;
             sound.pause();
         }
