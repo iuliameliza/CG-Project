@@ -11,7 +11,7 @@ let renderer,
     blobScale = 5,
     raycaster = new THREE.Raycaster(), // Needed for object intersection
     mouse = new THREE.Vector2(), // Needed for mouse coordinates
-    flag = true,
+    flag = false,
     listener,
     sound,
     audioLoader;
