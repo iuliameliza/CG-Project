@@ -71,6 +71,7 @@ function init() {
         sound.setBuffer(buffer);
         sound.setLoop(true);
         sound.setVolume(0.05);
+        sound.resume();
         sound.play();
         sound.setLoop(true);
     });
