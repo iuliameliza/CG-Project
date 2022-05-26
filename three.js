@@ -207,7 +207,6 @@ function animate() {
     window.addEventListener('click', onDocumentMouseDown, false);
     window.addEventListener('keydown', onDocumentKeyDown, false);
     renderer.render(scene, camera);
-    sound.play();
     requestAnimationFrame(animate);
 }
 
