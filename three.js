@@ -56,7 +56,7 @@ function init() {
     const textureParticle = loader.load("https://i.ibb.co/FzwqgpD/toppng-com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png");
     const textureCloud = loader.load("https://i.ibb.co/K2cJzpz/CITYPNG-COM-Download-White-Grey-Real-Sky-Cloud-PNG-1738x884.png");
     const textureRainDrop = loader.load("https://i.ibb.co/xSYdfkt/pngwing-com-2.png");
-    const textureBirds = loader.load("https://i.ibb.co/Df8LZc4/pngwing-com-3.png");
+    const textureBirds = loader.load("https://i.ibb.co/tLPVD0V/pngegg.png");
 
     // Audio
     listener = new THREE.AudioListener();
@@ -146,7 +146,7 @@ function init() {
     }
     scene.add(createFloatingObjs(textureCloud, 90, 10, "#ffffff", THREE.NormalBlending));
     scene.add(createFloatingObjs(textureRainDrop, 5, 100, '#ffffff', THREE.AdditiveBlending));
-    scene.add(createFloatingObjs(textureBirds, 25, 15, '#ffffff', THREE.NormalBlending));
+    scene.add(createFloatingObjs(textureBirds, 25, 12, '#ffffff', THREE.NormalBlending));
 
 
     function randomPointSphere(radius) {
